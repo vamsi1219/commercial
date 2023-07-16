@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body, form {
+            display: flex;
+            justify-content: center;
+        }
+        body {
+            height: 97vh;
+            align-items: center;
+        }
+        form {
+            padding: 20px;
+            border: 5pt solid black;
+            border-radius: 20px;
+            flex-direction: column;
+            width: 30%;
+            height: 400px;
+        }
+        input {
+            padding: 10px;
+        }
+        #top {
+            border-top-left-radius: 10pt;
+            border-top-right-radius: 10pt;
+        }
+        #middle {
+            border-left-color: black;
+            border-right-color: black;
+        }
+        #bottom {
+            border-bottom-left-radius: 10pt;
+            border-bottom-right-radius: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="servicesAvailable.html">
+        <img src="homeimg.png" alt="service">
+        <input id="top" type="email" placeholder="e-mail" required>
+        <input id="bottom" type="password" placeholder="password" required>
+        <input type="submit">
+    </form>
+</body>
+</html>

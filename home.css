@@ -1,0 +1,33 @@
+.navi {
+    align-items: center;
+    display: block;
+    text-align: center;
+    background-color: lightpink;
+    padding: 10px;
+    padding-inline-end: 10px;
+}
+.navi li{
+    display: inline;
+    padding: 10px;
+}
+img{
+    height: 400px;
+    width: 1200px;
+    padding-top: 20px;
+    margin: 20px;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: blue;
+}
+.card-e {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:lightgreen;
+}
